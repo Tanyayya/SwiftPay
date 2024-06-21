@@ -13,6 +13,6 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"
-  ],
+, "app/(dashboard)/p2pTransaction"  ],
   "exclude": ["node_modules"]
 }
