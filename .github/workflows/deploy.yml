@@ -32,4 +32,3 @@ jobs:
     - name: Verify Pushed Image
       run: docker pull 100xdevs/web-app:latest
 
-    
