@@ -36,12 +36,12 @@ export const AddMoney = () => {
         }))} />
         <div className="flex justify-center pt-4">
             <Button onClick={async () => {
-               const response= await createOnRampTransaction(provider, value);
-                await axios.post("/api/hdfcWebhook", {
-                    token: response.token,
-                    user_identifier: response.userId,
-                    amount: value
-                });
+            //    const response= await createOnRampTransaction(provider, value);
+            //     await axios.post("/api/hdfcWebhook", {
+            //         token: response.token,
+            //         user_identifier: response.userId,
+            //         amount: value
+            //     });
               window.location.href = redirectUrl || "";
             
                
