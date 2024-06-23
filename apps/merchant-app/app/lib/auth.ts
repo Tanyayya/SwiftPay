@@ -1,5 +1,5 @@
 import GoogleProvider from "next-auth/providers/google";
-import NextAuth from "next-auth";
+
 import { AuthOptions, Account, User } from "next-auth";
 import db from "@repo/db/client";
 
