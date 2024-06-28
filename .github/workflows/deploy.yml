@@ -25,11 +25,11 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         context: .
-        file: ./Dockerfile
+        file: ./docker/Dockerfile.userApp
         push: true
-        tags: 100xdevs/web-app:latest
+        tags: tanshukla/swiftpay:latest
 
     - name: Verify Pushed Image
-      run: docker pull 100xdevs/web-app:latest
+      run: docker pull tanshukla/swiftpay:latest
 
     
